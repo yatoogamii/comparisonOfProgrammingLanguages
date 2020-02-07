@@ -1,27 +1,36 @@
-En javascript nous avons 3 manières de déclarer des variables :
+# Variable en javascript
 
+En javascript nous avons 2 manières de déclarer des variables, *let* et *var*. 
 
-*let* est utilisé pour déclarer une variable ou la valeur risque de changer dans le temps, exemple:
+## var
+
+*var* est un mot clé utilisé avant ES6 (ECMAScript 2015), nous pouvons encore le voir dans certain script aujourd'hui mais il est conseillé d'utiliser plutôt le nouveau mot clé introduit avec ES6 *let* pour des raisons que nous détaillerons plus tard, voici quand même un exemple:
 ```js
-let myAge = 20;
-
-// un an plus tard
-
-myAge = 21;
+var myAge = 20; // 20
 ```
-Votre âge changera tous les ans, donc on utilisera le mot clé *let*
 
-*const* est utilisé pour déclarer une constante, donc une variable ou la valeur ne changera pas plus tard. Si vous déclarez une variable et que vous voulez la changer plus tard cela provoquera une erreur, exemple:
+## let
+
+*let* est un mot clé utilisé depuis ES6, il permet de déclarer une variable. Il se comporte visuellement exactement comme *var* exemple: 
 ```js
-const myBirthday = '07/01/2000';
-
-myBirthday = '01/09/1990'; // Error
+let myAge = 20; // 20
 ```
-Votre date de naissance ne changera théoriquement jamais dans votre vie, donc on peut dire que c'est une constante et on utilisera donc la mot clé *const*
 
-var était utilisé à l'époque ou let et const n'était pas encore introduit dans le standard (avant ES6). Il n'est aujourd'hui plus conseillé de l'utiliser pour des raisons que nous détaillerons plus tard. Mais si jamais vous le voyais encore dans du dit 'old school' sachez qu'il fonctionne de la même manière qu'un *let*:
+## convention de nommage
+
+Les deux doivent suivre une convention de nommage:
+
+- le nom de la variable doit contenir seulement des lettres, nombres, ou le symbole $ et _.
+- le premier charactère du nom de la variable ne doit impérativement pas être un chiffre
+- sensible à la casse
+- ne pas utiliser de mot clé reservé comme: *function*, *this*, *let*, *var*, *const*, *class*, *import*, *extends*, *export*...
+
+exemple:
 ```js
-var myAge = 20;
+var 0myAge = 20; // error
+let @myAge = 20; // error
+let function = 20; // error
 
-myAge = 21;
+var _myAge = 20; // 20
+let $myAge = 20; // 20
 ```
