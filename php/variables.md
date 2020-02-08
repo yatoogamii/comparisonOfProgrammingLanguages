@@ -7,7 +7,7 @@ $myAge = 20; // 20
 
 ## convention de nommage
 
-Les deux doivent suivre une convention de nommage:
+Les variables doivent suivre une convention de nommage:
 
 - le premier charactère du nom de la variable doit impérativement être une lettre ou un souligné (*_*)
 - sensible à la casse
