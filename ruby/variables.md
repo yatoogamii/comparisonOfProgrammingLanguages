@@ -10,7 +10,6 @@ myAge = 20; // 20
 Les variables doivent suivre une convention de nommage:
 
 - sensible à la casse
-- ne pas utiliser de mot clé reservé comme: *this*
 - ne pas utiliser de *&* ou de *-* dans le nom de la variable
 - snake case
 
