@@ -7,7 +7,7 @@ myAge = 20; // 20
 
 ## convention de nommage
 
-Les deux doivent suivre une convention de nommage:
+Les variables doivent suivre une convention de nommage:
 
 - sensible à la casse
 - ne pas utiliser de mot clé reservé comme: *this*
