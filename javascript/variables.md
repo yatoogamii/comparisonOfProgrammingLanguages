@@ -24,13 +24,16 @@ Les deux doivent suivre une convention de nommage:
 - le premier charactère du nom de la variable ne doit impérativement pas être un chiffre
 - sensible à la casse
 - ne pas utiliser de mot clé reservé comme: *function*, *this*, *let*, *var*, *const*, *class*, *import*, *extends*, *export*...
+- si le nom contient plusieurs mots on utilisera le *camelCase*
 
 exemple:
 ```js
 var 0myAge = 20; // error
 let @myAge = 20; // error
 let function = 20; // error
+let my-age = 20; // error
 
 var _myAge = 20; // 20
 let $myAge = 20; // 20
+let myAge = 20; // 20
 ```
