@@ -11,7 +11,8 @@ Les variables doivent suivre une convention de nommage:
 
 - sensible à la casse
 - ne pas utiliser de *&* ou de *-* dans le nom de la variable
-- snake case
+- si le nom contient plusieurs mots on utilisera le *snake_case*
+
 
 exemple:
 ```rb
