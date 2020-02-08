@@ -1,7 +1,7 @@
 # Variable en rust
 
 En rust nous utilisons le mot clé *let* comme préfixe pour déclarer une variable, exemple:
-```rs
+```js
 let myAge = 20; // 20
 let my_age = 20; // 20
 
@@ -18,7 +18,7 @@ Les variables doivent suivre une convention de nommage:
 - ne pas utiliser de mot clé reservé comme: *fn*, *let*, *mut*
 
 exemple:
-```rs
+```js
 let my-age = 20; // error
 let my$age = 20; // error
 
