@@ -9,7 +9,7 @@ $myAge = 20; // 20
 
 Les variables doivent suivre une convention de nommage:
 
-- le premier charactère du nom de la variable doit impérativement être une lettre ou un souligné (*_*)
+- le premier charactère du nom de la variable doit impérativement être une lettre ou un souligné *_* 
 - sensible à la casse
 - ne pas utiliser de mot clé reservé comme: *this*
 
